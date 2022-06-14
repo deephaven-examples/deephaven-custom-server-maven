@@ -10,7 +10,7 @@ import io.deephaven.util.QueryConstants;
 
 import java.io.IOException;
 
-import static io.deephaven.function.DoublePrimitives.*;
+import static io.deephaven.function.Basic.isNull;
 
 /**
  * An example of wrapping up {@link FooLibrary} into Deephaven.

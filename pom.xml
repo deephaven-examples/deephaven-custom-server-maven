@@ -31,7 +31,7 @@
       <dependency>
         <groupId>io.deephaven</groupId>
         <artifactId>deephaven-bom</artifactId>
-        <version>0.10.0</version>
+        <version>0.13.0</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -70,6 +70,30 @@
       <scope>runtime</scope>
     </dependency>
 
+    <dependency>
+      <groupId>io.deephaven</groupId>
+      <artifactId>deephaven-log-to-slf4j</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>io.deephaven</groupId>
+      <artifactId>deephaven-logback-print-stream-globals</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>io.deephaven</groupId>
+      <artifactId>deephaven-logback-logbuffer</artifactId>
+      <scope>runtime</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.3.0-alpha12</version>
+    </dependency>
+
     <!-- Testing dependencies -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
@@ -86,7 +110,7 @@
     <dependency>
       <groupId>org.assertj</groupId>
       <artifactId>assertj-core</artifactId>
-      <version>3.22.0</version>
+      <version>3.23.1</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
